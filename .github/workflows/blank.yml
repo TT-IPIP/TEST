@@ -29,7 +29,7 @@ jobs:
         array=($string)
         for var in ${array[@]}
         do
-          python3 checkin.py <<EOF
+          python3 test.py <<EOF
           $var
         EOF
         done
